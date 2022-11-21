@@ -15,13 +15,13 @@ L’application est destinée pour  l’approvisionnement de mini-Market, en imp
  
 ![admin](https://user-images.githubusercontent.com/101791324/203165544-4f78ab70-2cf8-4352-a589-86c30de3438c.PNG)
 
-![prod](https://user-images.githubusercontent.com/101791324/203165746-6f225372-764e-4547-b1a9-7fce0aa2768e.PNG)
-
-![account](https://user-images.githubusercontent.com/101791324/203167282-59f1dd63-dc63-4322-8834-ec1b6f1d61dc.PNG)
-
-_Create new Product _
-![createpr](https://user-images.githubusercontent.com/101791324/203166491-2a0e310b-15dc-4ac9-8e5a-c55f573803c4.PNG)
-_ Listes des commandes et des lignes de commandes_
-![commands](https://user-images.githubusercontent.com/101791324/203166718-15964124-d1a8-43f6-a2b4-ce1a591dee83.PNG)
-_Listes des utilisateurs_
-![usse](https://user-images.githubusercontent.com/101791324/203167141-f66130cf-7c94-452f-a3f1-448396ed942b.PNG)
+_Update Account __
+![account](https://user-images.githubusercontent.com/101791324/203168410-ef6ded31-b48c-4074-be06-4936c0444049.PNG)
+_Listes des commandes des users _
+![commands](https://user-images.githubusercontent.com/101791324/203168711-e10a4333-aebb-4b2f-910f-21bbcc04a63f.PNG)
+_Gestion des produits_
+![prod](https://user-images.githubusercontent.com/101791324/203168822-dab6e66f-5f21-48e9-bb09-f11360fc783c.PNG)
+_Create new product_
+![newprod](https://user-images.githubusercontent.com/101791324/203169078-9beac0cb-5d00-46d3-9a3f-f6650ed2ee91.PNG)
+_Show lists of users_
+![usse](https://user-images.githubusercontent.com/101791324/203169162-31c75a1c-d17f-4318-bf7c-c082d9089e3a.PNG)
