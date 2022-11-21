@@ -27,3 +27,11 @@ _Create new product_
 ![newprod](https://user-images.githubusercontent.com/101791324/203169078-9beac0cb-5d00-46d3-9a3f-f6650ed2ee91.PNG)
 _Show lists of users_
 ![usse](https://user-images.githubusercontent.com/101791324/203169162-31c75a1c-d17f-4318-bf7c-c082d9089e3a.PNG)
+
+
+
+**A propos de la page home d'un simple user :**
+Il peut seulement : consulter les produits , faire une gestion des ses commandes et modifier ses données d'authentification
+
+![user](https://user-images.githubusercontent.com/101791324/203169939-ebc0e219-8a60-4c65-a9b9-56dc601c45b3.PNG)
+
