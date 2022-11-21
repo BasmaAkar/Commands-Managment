@@ -12,14 +12,13 @@ L’application est destinée pour  l’approvisionnement de mini-Market, en imp
 5. L'admin a le droit de faire un CRUD(Create-Read-Update-Delete) pour la gestion des : produits ,  users ,  commandes  et les lignes de commandes 
 6.  L'utilisateur a seulement le droit de faire une gestion a ses propres commandes , comme il peut modifier les données de son Authentifiaction et voir les produits entrés par l'admin . <br/>
   La Page home de l'Admin :
-  <br/>
+ 
 ![admin](https://user-images.githubusercontent.com/101791324/203165544-4f78ab70-2cf8-4352-a589-86c30de3438c.PNG)
-<br/>
+
 ![prod](https://user-images.githubusercontent.com/101791324/203165746-6f225372-764e-4547-b1a9-7fce0aa2768e.PNG)
-<br/>
- <br/>
+
 ![account](https://user-images.githubusercontent.com/101791324/203167282-59f1dd63-dc63-4322-8834-ec1b6f1d61dc.PNG)
-<br/>
+
 _Create new Product _
 ![createpr](https://user-images.githubusercontent.com/101791324/203166491-2a0e310b-15dc-4ac9-8e5a-c55f573803c4.PNG)
 _ Listes des commandes et des lignes de commandes_
