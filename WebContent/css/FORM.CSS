@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+
+    transition: all .2s linear;
+
+}
+select {
+  display: block;
+  width: 100%;
+  height:6vh;
+   margin: 1rem;
+           padding:0px 12px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+    background:  greenyellow ;  
+
+}
+.button{
+ text-decoration: none ;
+        
+        color :Green ;
+         font-size: 1.5em;
+          cursor: pointer;
+           margin: 1rem;
+           padding:0px 12px;
+     border-left: .2rem solid dodgerblue;
+        border-right: .2rem solid dodgerblue;
+      border-bottom: .2rem solid greenyellow;
+      border-top: .2rem solid greenyellow;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+	background: url(/images/market.png);
+  font-family: "Sansita Swashed", cursive;
+}
+.center {
+  position: relative;
+  padding: 50px 50px;
+  background: #fff;
+  border-radius: 10px;
+}
+label{
+
+ font-weight: bold;
+  color: #000;
+   letter-spacing: 3px;
+   
+      margin-bottom: 7px;
+}
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid #cef924;;
+  padding: 10px;
+  color: #000;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.center .inputbox {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #cef924;
+  outline: none;
+  background:  #cef924; 
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.center .inputbox:last-child {
+  margin-bottom: 0;
+}
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1rem;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+.center .inputbox [type="button"] {
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+}
+.center .inputbox:hover [type="button"] {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+
+header{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;
+    width:20rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column ;
+    text-align: center;
+     
+  
+}
+
+header .user img{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2rem;
+    border:.4rem solid #cef924;
+}
+
+header .user .name{
+    font-size: 2rem;
+    color:#fff;
+    letter-spacing: 2px ;;
+}
+
+header .user .post{
+    font-size: 1.3rem;
+    color:#eee;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex; 
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+ 
+}
+
+
+header .navbar ul{
+    list-style: none;
+    padding:  0rem 4rem;
+}
+
+
+header .navbar ul li a{
+    display: block;
+    padding:  0.8rem;
+    margin:0.7rem 0rem;
+    background:#333;
+    color:#fff;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    Transition: 0.7s ease ;
+}
+header .user span{
+
+    color:#cef924 ;
+    
+}
+
+header .navbar ul li a:hover{
+    background: #cef924 ;
+    color:rgb(5, 51, 17) ;
+    transform: scale(1.1);
+      text-decoration: none;
+}
+ 
+

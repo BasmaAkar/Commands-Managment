@@ -1,0 +1,149 @@
+ 	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root{
+    --yellow:#cef924;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+ 
+}
+
+header{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;
+    width:18rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column ;
+    text-align: center;
+     
+  
+}
+
+header .user img{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2rem;
+    border:.4rem solid #cef924;
+}
+
+header .user .name{
+    font-size: 2rem;
+    color:#fff;
+    letter-spacing: 2px ;;
+}
+
+header .user .post{
+    font-size: 1.3rem;
+    color:#eee;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex; 
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+ 
+}
+
+
+header .navbar ul{
+    list-style: none;
+    padding:  0rem 4rem;
+}
+
+
+header .navbar ul li a{
+    display: block;
+    padding:  0.8rem;
+    margin:0.7rem 0rem;
+    background:#333;
+    color:#fff;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    Transition: 0.7s ease ;
+}
+header .user span{
+
+    color:#cef924 ;
+    
+}
+
+header .navbar ul li a:hover{
+    background: #cef924 ;
+    color:rgb(5, 51, 17) ;
+    transform: scale(1.1);
+      text-decoration: none;
+}
+ 
+
+table{
+
+padding: 20px 20px  ; 
+ 
+  margin-left: 162px ;
+  
+   
+ 
+}
+
+.ani{
+ border-width:2px;
+  font-size:2rem;
+    color: black ;
+    padding: 2rem ;
+    letter-spacing: 3px ;
+ 	  margin-top: 2rem;
+  border-bottom: .3rem solid  #cef924;
+    border-radius: 15rem;
+
+}
+.ani h1{
+ margin-left: 190px ;
+ text-align: center;
+}
+.main-btn{
+  background-color:#cef924;
+    color :black ;
+    text-decoration: none ;
+    font-size : 1.2em;
+    font-weight :600 ;
+    display:inline-block ;
+    padding: 5px 2px  ; 
+    letter-spacing: 3px ;
+    border-radius : 22px ;
+    margin-top: 8px ;
+   margin-left: 350px ;
+    margin-bottom: 18px ;
+    transition : 0.7s ease;
+
+}
+.cont {
+   max-width: 540px;
+   padding-left: 15px;
+    margin-right: auto;
+    margin-left:310px;
+    width: 100%;
+}
+.main-btn:hover{
+     text-decoration: none ;
+        background-color : #cef924;
+        Transform : scale(1.1) ;    color :black ;
+}
